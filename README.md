@@ -74,7 +74,7 @@ Testing Pyramid
      /      \    Integration Tests (some)
     /--------\
    /          \  Unit Tests (many)
-  /____________\
+  /------------\
 
 
 Best Practices
