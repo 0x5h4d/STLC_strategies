@@ -1,13 +1,16 @@
 Software Testing Strategies
+
 A practical reference for QA engineers covering core testing strategies, methodologies, and best practices for building reliable software.
 
 
 Overview
+
 This repository documents software testing strategies and approaches used in quality assurance, including test planning, execution techniques, and automation practices.
 
 
 
 Testing Levels
+
 Level	            Purpose	                            Scope
 Unit Testing	    Validate individual components	    Functions, methods, classes
 Integration Testing	Verify interactions between modules	APIs, databases, services
@@ -17,6 +20,7 @@ Acceptance Testing	Confirm business requirements	    User stories, UAT
 
 
 Testing Types
+
 Functional Testing – Verifies features against requirements
 
 Regression Testing – Ensures new changes don't break existing functionality
@@ -32,6 +36,7 @@ Compatibility Testing – Cross-browser, cross-platform, and device coverage
 
 
 Testing Approaches
+
 Black-Box Testing
 Tests functionality without knowledge of internal implementation. Techniques include equivalence partitioning, boundary value analysis, and decision tables.
 
@@ -44,6 +49,7 @@ Combines both approaches, leveraging partial knowledge of internal structures.
 
 
 Test Design Techniques
+
 Equivalence Partitioning
 
 Boundary Value Analysis
@@ -59,6 +65,7 @@ Error Guessing
 
 
 Automation Strategy
+
 Select candidates – Prioritize stable, repetitive, high-value test cases
 
 Choose the right layer – Follow the test pyramid (many unit, fewer integration, minimal UI)
@@ -70,18 +77,10 @@ Integrate with CI/CD – Run automated suites on every commit
 Review and refactor – Treat test code with the same rigor as production code
 
 
-Testing Pyramid
-
-        /\
-       /  \      UI / E2E Tests (few)
-      /----\
-     /      \    Integration Tests (some)
-    /--------\
-   /          \  Unit Tests (many)
-  /------------\
 
 
 Best Practices
+
 Write clear, independent, and repeatable test cases
 
 Define acceptance criteria before development begins
