@@ -1,18 +1,19 @@
 Software Testing Strategies
-
 A practical reference for QA engineers covering core testing strategies, methodologies, and best practices for building reliable software.
+
 
 Overview
 This repository documents software testing strategies and approaches used in quality assurance, including test planning, execution techniques, and automation practices.
 
 
-Testing Levels
 
+Testing Levels
 Level	            Purpose	                            Scope
 Unit Testing	    Validate individual components	    Functions, methods, classes
 Integration Testing	Verify interactions between modules	APIs, databases, services
 System Testing	    Validate complete system behavior	End-to-end workflows
 Acceptance Testing	Confirm business requirements	    User stories, UAT
+
 
 
 Testing Types
@@ -29,6 +30,7 @@ Usability Testing – User experience and accessibility validation
 Compatibility Testing – Cross-browser, cross-platform, and device coverage
 
 
+
 Testing Approaches
 Black-Box Testing
 Tests functionality without knowledge of internal implementation. Techniques include equivalence partitioning, boundary value analysis, and decision tables.
@@ -38,6 +40,7 @@ Examines internal logic and code structure. Techniques include statement coverag
 
 Grey-Box Testing
 Combines both approaches, leveraging partial knowledge of internal structures.
+
 
 
 Test Design Techniques
@@ -52,6 +55,7 @@ State Transition Testing
 Pairwise / Combinatorial Testing
 
 Error Guessing
+
 
 
 Automation Strategy
